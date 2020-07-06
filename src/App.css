@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: #f39999;
+  margin:0;
+}
+h1{
+  background-color: #f02222;
+  padding:18px;
+color:white
+}
+.App{
+  padding: 30px;
+  background-color: white;
+  width:80%;
+  margin:50px auto;
+}
+
+input{
+  width:80%;
+  border:0;
+  padding:6px 10px;
+  background: #e4d7d7;
+}
+button{
+  width:20%;
+  border:0;
+  padding:6px 10px;
+  margin:0;
+  outline:0;
+  color:white;
+  font-weight: bold;
+  cursor:pointer;
+  background: yellowgreen;
+}
+ul{
+  list-style: none;
+  padding: 0;
+}
+li{
+  margin:15px 0
+}
+
+li span{
+  display: inline-block;
+  width:60%;
+  color:#634444;
+  padding-left: 10px;
+}
+
+li>button:first-of-type{
+  background: #05a005;
+  color:white;
+  margin-right: 1%;
+  width: 19%;
+}
+
+li>button:last-of-type{
+  width: 20%;
+  color:red;
+
+}
+ul form{
+margin:15px 0
+}
